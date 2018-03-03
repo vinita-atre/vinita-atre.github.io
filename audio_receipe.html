@@ -1,0 +1,164 @@
+<!--modal7-->                   
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content=" portfolio for vinita atre"><meta name="keywords" content="vinita, atre, design, portfolio, University of maryland, Umd, summer internship, hci, Human computer interaction, ux, ui, ux researcher, ux engineer, ui, design portfolio, experience, product design">
+    <title>Audio Recipe Book</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /><!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet" /><!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!-- My CSS -->
+    <link href="css/portfolio.css" rel="stylesheet" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body id="page-top">
+    <div class="container">
+        <div class="row">
+            <div  class="col-lg-8 offset-lg-2">
+                <center></center><h2>Audio RecipeBook</h2></center>
+                <hr class="star-primary" />
+                <p>Created a mobile app prototype for a recipe app from a sound perspective.</p>
+            <!-- </div> -->
+            <!-- <div class="col-lg-6">
+                <img class="img-fluid" src="img/portfolio/AudioRecipeBook/icon.png" alt="icon">
+            </div>
+            
+            <div > -->
+                <div class="modal-body">
+
+
+
+                    <h3>Discover Phase</h3>
+
+                    <p><b>Scenario:</b> Cooking is an important part of everyone&#39;s life. This includes actually accessing a recipe to cook and even having ingredient shopping list ready when the user is in the market.</p>
+                    &nbsp;
+
+                    <p><b>Understanding the Business needs</b></p>
+
+                    <p>The app needs to create a more accessible mobile application for visually impaired people.</p>
+                    &nbsp;
+
+                    <p><b>Understanding the user</b></p>
+
+                    <p>In order to create a recipe experience for visually impaired as well as normal users, I needed to come up with a common way of interaction. I performed initial research on app usage by studying the voice over feature in iphones to understand how the visually impaired people use their phones and applications.<br />
+                    I also studied how they navigate and interact using various gestures. I went through blogs and YouTube videos of blind people cooking. This helped me analyse the challenges that people with visual impairment face.</p>
+                    <br />
+                    <img src="img/portfolio/AudioRecipeBook/Userproblems.png" style="width:100%" />
+                    <p><b>Findings: </b>A few of the findings included that they is a lack of conversational interfaces, better navigation and interactivity.<br />
+                    I also wanted to take into consideration the environment of usage. A recipe app can be used while cooking or it can be used to just read and understand the recipe. Hence I concluded that a dual mode recipe app with hands-free mode and normal usage mode is required. The app will not have an audio output but one can talk back to the application. The application is tab based so as to have easy navigation and semantic control over content.</p>
+                    &nbsp;
+
+                    <h3>Define Phase - Defining the problem</h3>
+                    <i>Created using thinking by analyzing user goals, business goals and environment</i>
+
+                    <p>How can we make a user experience for blind and sighted people to access a recipe on their phone or tablet from a sound and voice perspective?</p>
+                    &nbsp;
+
+                    <p><b>User flow</b></p>
+                    <i>Created using LucidCharts</i>
+
+                    <p>How can we make a user experience for blind and sighted people to access a recipe on their phone or tablet from a sound and voice perspective?</p>
+                    &nbsp;
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="carouselSlide" data-ride="carousel" id="myCarousel"><!-- Wrapper for slides -->
+                                    <div class="carouselInner" role="listbox">
+                                        <div class="item active"><img id="userFlow-images" src="img\portfolio\AudioRecipeBook\UserFlow\uf1.png" /></div>
+
+                                        <div class="item"><img id="userFlow-images" src="img\portfolio\AudioRecipeBook\UserFlow\uf2.png" /></div>
+
+                                        <div class="item"><img id="userFlow-images" src="img\portfolio\AudioRecipeBook\UserFlow\uf3.png" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Design Phase - Creating Wireframes</h3>
+                    <i>Created using LucidCharts</i>
+
+                    <p><b>Information architecture</b> considerations led me to design the app in the following main screens:</p>
+
+                    <ul>
+                        <li>
+                            <p id="list-item">Home</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Voice Commands</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Choose Recipe</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Preparation Time</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Ingredients</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Pre-cooking steps</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Cooking steps</p>
+                        </li>
+                    </ul>
+                    &nbsp;
+
+                    <p><b>Navigation</b> through the app is simple with a tab based layout. The app has the following tabs:</p>
+
+                    <ul>
+                        <li>
+                            <p id="list-item">Home</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Recipe</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Shopping List</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Profile</p>
+                        </li>
+                        <li>
+                            <p id="list-item">Help</p>
+                        </li>
+                    </ul>
+
+                    <p>Navigation between the recipe screens is supported by <b>next</b> and <b>previous</b> buttons. There is a back button on all screens supporting back action.</p>
+
+                    <p></p>
+                    &nbsp;
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12" style="background-color:lavender;"><img src="img/portfolio/AudioRecipeBook/Wireframe/wireframerecipe.png" style="width: 100%" /></div>
+                        </div>
+                    </div>
+
+                    <h3>Design Phase - Creating Prototype</h3>
+                    <i>Created using Proto.io</i>
+
+                    <p>I created a working protype with audio.</p>
+                    &nbsp;
+
+                    <video controls="" id="video-prototype" width="60%"><source src="img/portfolio/AudioRecipeBook/prototype/videoDemoforRecipeApp.mp4" type="video/mp4" /></video>
+
+                    <ul class="list-inline item-details">
+                        <li>Client: <strong><a href="#">Coursework</a> </strong></li>
+                        <li>Date: <strong><a href="#">September 2016</a> </strong></li>
+                        <li>Service: <strong><a href="#">User Experience Problem</a> </strong></li>
+                    </ul>
+                    <!-- <button class="btn btn-default" data-dismiss="modal" type="button">Close</button> --></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</body>
+</html>

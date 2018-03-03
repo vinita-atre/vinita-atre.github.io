@@ -1,0 +1,187 @@
+mark {
+    background-color: black;
+    color: yellow;
+}
+#jmmyImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* The Modal (background) */
+#jmmyModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+#jmmodal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#jmcaption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+#jmmodal-content, #jmcaption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    #jmmodal-content {
+        width: 100%;
+    }
+}
+
+#jmmyImg:hover {opacity: 0.7;}
+
+
+
+#left_p{
+  text-align: left;
+}
+#personaImage {
+	width: 100%; 
+	height: 100%
+}
+#project-subtitle {
+	text-align: center;
+	margin: auto
+}
+#project-title {
+	text-align: center;
+	margin: auto
+}
+#problem-definition{
+	font-size: 25px
+}
+
+.carouselInner > .item > img,
+  .carouselInner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+ #wireframe-images {
+ 	height: 100%
+ }
+ #prototype-video
+{
+	width: 50%
+	height: 60%;
+	margin:auto;
+}
+#video-prototype {
+	border-width: 5px;
+
+}
+#video-caption{
+	font-size: 12px;
+}
+#list-item {
+	text-align: left;
+}
+#userFlow-images{
+	width:100%;
+}
+.ZoomableImg {
+	width: 100%;
+	
+}
+.ZoomableImg img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.ZoomableImg:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+a:hover{
+color: yellow;
+
+}
+.portfolio-item {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 40%;
+  
+  transform: translateY(-40%);
+  text-align: center;
+}
+
+.caption:hover {
+  visibility: visible;
+
+  
+}
+.portfolio-item:hover + .caption {
+    background: #ccc
+    color:blue;
+}
