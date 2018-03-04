@@ -385,13 +385,8 @@ a:hover, a:focus, a:active {
   background-color: #F65959 !important;
 }
 
-@media all and (max-width: 720px) {
-  .displaytoggler{display:none;}
-    
-
-}
-@media all and (max-width: 479px) {
- .displaytoggler{display:none;}
+@media all and (max-width: 768px) {
+  .displaytoggler{display:none; height:0%;}
     
 
 }
