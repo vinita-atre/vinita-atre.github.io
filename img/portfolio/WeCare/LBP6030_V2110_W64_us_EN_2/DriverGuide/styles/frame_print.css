@@ -1,0 +1,24 @@
+html {
+	border: 0;
+	height: 100%;
+	overflow: scroll;
+}
+div.print_instructions {
+	background: #ffffef;
+	border-bottom: solid 1px #888;
+	padding: 5px;
+	font-family: "Lucida Grande", "Verdana", "Arial", "Helvetica", Sans-serif;
+	font-size: 80%;
+	color: #808080;
+}
+@media print {
+	div.print_instructions {
+		display: none;
+	}
+	div.page_end {
+		page-break-after: always;
+	}
+	div.link_to_top {
+		display: none;
+	}
+}

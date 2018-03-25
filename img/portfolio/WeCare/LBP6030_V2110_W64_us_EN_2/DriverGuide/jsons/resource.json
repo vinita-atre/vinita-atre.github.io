@@ -1,0 +1,246 @@
+﻿var resource = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		id:		"title",
+		value:	"Printer Driver Installation Guide"
+	},{
+		id:		"home",
+		value:	"Top"
+	},{
+		id:		"contents",
+		value:	"Contents"
+	},{
+		id:		"sitemap",
+		value:	"Site Map"
+	},{
+		id:		"search",
+		value:	"Search"
+	},{
+		id:		"help",
+		value:	"Help"
+	},{
+		id:		"bar_icon_print",
+		value:	"Print<img src=\"../frame_images/bar_icon_print.png\" title=\"Print this topic\" />"
+	},{
+		id:		"product_name",
+		value:	"Printer Driver Installation Guide"
+
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"copy_right",
+		value:	"Copyright CANON INC. 2013"
+	},{
+		id:		"notice",
+		value:	"Notice"
+	},{
+		id:		"pub_number",
+		value:	"USRM2-4394-00"
+	// --------------------------------------------------------------------------------------------
+	// NAV
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"print_all",
+		value:	"Print all"
+	},{
+		id:		"print_instructions",
+		value:	"Print this page with browser's [Print] menu."
+	},{
+		id:		"close_toc_all",
+		value:	"Collapse All"
+	},{
+		id:		"open_toc_all",
+		value:	"Expand All"
+	},{
+		id:		"bar_icon_previous",
+		value:	"<img src=\"../frame_images/bar_icon_prev.png\" title=\"Go to the previous topic\" />"
+	},{
+		id:		"bar_icon_next",
+		value:	"<img src=\"../frame_images/bar_icon_next.png\" title=\"Go to the next topic\" />"
+
+	// --------------------------------------------------------------------------------------------
+	// SITEMAP
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"contents_link_prev",
+		value:	"Previous"
+	},{
+		id:		"contents_link_next",
+		value:	"Next"
+
+	// --------------------------------------------------------------------------------------------
+	// SEARCH
+	// --------------------------------------------------------------------------------------------
+	},{
+		id:		"search_options_show",
+		value:	"Search options"
+	},{
+		id:		"search_options_hide",
+		value:	"Search options"
+	},{
+		id:		"search_options_case",
+		value:	"Case sensitive"
+	},{
+		id:		"search_options_multibyte",
+		value:	"Differentiate between one-byte and two-byte"
+	},{
+		id:		"search_options_search_scope_all",
+		value:	"Search all chapters"
+	},{
+		id:		"search_prev",
+		value:	"« Prev"
+	},{
+		id:		"search_next",
+		value:	"Next »"
+	},{
+		id:		"search_found",
+		value:	"item(s)"
+	},{
+		id:		"search_options_search_scope_chapter",
+		value:	"Search from below chapters"
+	},{
+		id:		"enter_search_keyword",
+		value:	"Enter keyword(s) here"
+	},{
+		id:		"search_button",
+		value:	"Search with these conditions"
+	},{
+		id:		"search_glossary",
+		value:	"Search topics using this terminology..."
+	},{
+		id:		"search_glossary_not_found",
+		value:	"No topics found."
+	},{
+		id:		"search_result_item",
+		value:	"Result: "
+	}
+];
+var link = [
+	// --------------------------------------------------------------------------------------------
+	// HEADER
+	// --------------------------------------------------------------------------------------------
+	{
+		link_name:"home",
+		link_target:"_self",
+		link_href:"../frame_htmls/home.html"
+	},{
+		link_name:"sitemap",
+		link_target:"_self",
+		link_href:"../frame_htmls/contents.html"
+	},{
+		link_name:"help",
+		link_target:"_self"
+
+	// --------------------------------------------------------------------------------------------
+	// FOOTER
+	// --------------------------------------------------------------------------------------------
+	},{
+		link_name:"notice",
+		link_target:"_self",
+		link_resource:"notice",
+		link_href:""
+	}
+];
+var header = "home,sitemap,help,print";
+var footer = "notice";
+var constant = [
+	{
+		/* Remove "//" below to specify the language code. Simplified Chinese must be specified as "zh-CN". Traditional Chinese must be specified as "zh-TW". */
+		//lang_code:					"en",
+		search_show_around:			50,
+		search_show_result_count:	10,
+		search_page_max_range:		5,
+		search_help:				"search",
+		search_option_multibyte:	0,	// [0|1]
+		join_chapters:				0,	// [0|1]
+		markup_glossary:			0,	// [0|1]
+		link_to_top:				0	// [0|1]
+	}
+];
+var link_to_top_title = [
+	{
+	lang:		"ja",
+		title:		"このページのトップへ"
+	},{
+		lang:		"en",
+		title:		"Back to Top"
+	},{
+		lang:		"fr",
+		title:		"Haut de page"
+	},{
+		lang:		"it",
+		title:		"Torna all'inizio"
+	},{
+		lang:		"de",
+		title:		"Zurück zum Seitenanfang"
+	},{
+		lang:		"es",
+		title:		"Volver al principio"
+	},{
+		lang:		"ko",
+		title:		"맨 위로 이동"
+	},{
+		lang:		"zh-CN",
+		title:		"返回首行"
+	},{
+		lang:		"zh-TW",
+		title:		"移至首行"
+	},{
+		lang:		"pt",
+		title:		"Voltar ao Topo"
+	},{
+		lang:		"ca",
+		title:		"Tornar al principi"
+	},{
+		lang:		"cs",
+		title:		"Zpět na začátek"
+	},{
+		lang:		"da",
+		title:		"Tilbage til toppen"
+	},{
+		lang:		"fi",
+		title:		"Takaisin ylös"
+	},{
+		lang:		"nl",
+		title:		"Terug naar boven"
+	},{
+		lang:		"pl",
+		title:		"Powrót do góry"
+	},{
+		lang:		"pt",
+		title:		"Voltar ao início"
+	},{
+		lang:		"ru",
+		title:		"В начало"
+	},{
+		lang:		"sv",
+		title:		"Tillbaka till början"
+	},{
+		lang:		"default",
+		title:		"Back to Top"
+	}
+];
+var cover = [
+	{
+		cover_name:"intro",
+		cover_title:"Introduction"
+	},{
+		cover_name:"install",
+		cover_title:"Installing"
+	},{
+		cover_name:"server",
+		cover_title:"Setting Up a Print Server"
+	},{
+		cover_name:"uninstall",
+		cover_title:"Updating and Uninstalling"
+	},{
+		cover_name:"trouble",
+		cover_title:"Troubleshooting"
+	},{
+		cover_name:"others",
+		cover_title:"Appendix"
+	}
+];

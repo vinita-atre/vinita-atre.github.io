@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="Generator" content="CAESAR" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="content-style-type" content="text/css" />
+		<meta http-equiv="content-script-type" content="text/javascript" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Configuring Settings on the Print Server Computer - Printer Driver Installation Guide</title>
+		<link rel="stylesheet" type="text/css" href="../styles/frame_style.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/frame_sub.css" disabled="disabled" title="sub" />
+		<link href="styles/style000/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" charset="UTF-8" src="../jsons/resource.json"></script>
+		<script type="text/javascript" charset="UTF-8" src="../jsons/toc.json"></script>
+		<script type="text/javascript" charset="UTF-8" src="../jsons/search.json"></script>
+		<script type="text/javascript" charset="UTF-8" src="../scripts/jquery.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="../scripts/library.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="../scripts/script.js"></script>
+	</head>
+	<body>
+		<div class="page">
+			<div class="center">
+				<div class="header" id="id_header">
+					<div class="right"><ul id="id_header_include"></ul></div>
+					<a href="../frame_htmls/home.html">
+						<img src="../frame_images/C100.gif" title="Canon" class="canon_logo" />
+					</a>
+					<img src="../frame_images/f_product_logo.gif" class="product_logo" />
+				</div>
+				<div class="left" id="id_left">
+					<div class="tab"><button id="id_res_contents" class="active"></button><button id="id_res_search" class="inactive"></button></div>
+					<div class="chapter_title"><span class="chapter_title_left"></span><span class="chapter_title_center" id="id_chapter_title"></span><span class="chapter_title_right"><button id="id_btn_toggle_s"></button><button id="id_btn_toggle_l"></button></span></div>
+					<div id="id_panel_toc">
+						<div class="open_close"><a id="id_res_open_toc_all" href="javascript:void(0);"></a>
+									|
+									<a id="id_res_close_toc_all" href="javascript:void(0);"></a></div>
+						<ul id="id_chapter_icons"></ul>
+						<ul id="id_toc"></ul>
+						<div class="print"><a id="id_res_print_all" href="javascript:void(0);"></a></div>
+					</div>
+					<div id="id_panel_search">
+						<div class="input">
+							<input name="search" type="text" id="id_search" onkeydown="return fncSearchKeyDown(event.keyCode, this.value);" />
+							<button id="id_search_button"></button>
+							<div class="search_options"><button id="id_res_search_options_show"></button></div>
+						</div>
+						<div id="id_search_options">
+							<ul>
+								<li>
+									<input type="radio" name="search_options_search_scope" id="id_search_options_search_scope_all" />
+									<label for="id_search_options_search_scope_all" id="id_res_search_options_search_scope_all"></label>
+								</li>
+								<li>
+									<input type="radio" name="search_options_search_scope" id="id_search_options_search_scope_chapter" />
+									<label for="id_search_options_search_scope_chapter" id="id_res_search_options_search_scope_chapter"></label>
+								</li>
+							</ul>
+							<div id="id_search_chapters"></div>
+							<ul>
+								<li>
+									<input type="checkbox" id="id_search_options_case" />
+									<label for="id_search_options_case" id="id_res_search_options_case"></label>
+								</li>
+								<li>
+									<input type="checkbox" id="id_search_options_multibyte" />
+									<label for="id_search_options_multibyte" id="id_res_search_options_multibyte"></label>
+								</li>
+							</ul>
+							<div class="bottom"><button id="id_res_search_button"></button></div>
+						</div>
+						<div id="id_search_results"></div>
+						<div id="id_search_status"></div>
+					</div>
+				</div>
+				<div class="right" id="id_right">
+					<div id="id_breadcrumbs"><a href="../frame_htmls/home.html" id="id_res_home"></a> » <a href="03000000.html" id="id_level_1" toc_id="03000000" title="Setting Up a Print Server" >Setting Up a Print Server</a> » <a id="id_level_2" toc_id="03010000" title="Configuring Settings on the Print Server Computer" >Configuring Settings on the Print Server Computer</a></div>
+					<div id="id_document_number">0JJ7-007</div>
+					<div class="nav"><button id="id_res_bar_icon_previous"></button><button id="id_res_bar_icon_next"></button></div>
+					<!--CONTENT_START-->
+					<div id="id_content">
+						<div class="h1"><a id="03010000"></a>Configuring Settings on the Print Server Computer</div>
+						<div class="lead">Configure printer sharing settings on the computer that you want to use as the print server. The following procedure assumes that you have already installed the printer driver on the computer that you plan to use as the print server. If you have not installed the printer driver already, see <a href="03010000.html#04010000-010">Setting Up a Print Server during Printer Driver Installation</a>. </div>
+						<div class="table_important_level0">
+							<table class="table_important_level0">
+								<thead class="table_important_level0">
+									<tr class="table_important_level0">
+										<td colspan="1" rowspan="1" class="col_0 row_0 table_important_level0 table_important_level0_col_0 table_important_level0_row_0">
+											<div class="text"><img src="./images/book_images/b_style_important1.gif" alt="" /></div>
+										</td>
+									</tr>
+								</thead>
+								<tbody class="table_important_level0">
+									<tr class="table_important_level0">
+										<td colspan="1" rowspan="1" class="col_0 row_1 table_important_level0 table_important_level0_col_0 table_important_level0_row_1">
+											<div class="list">It may not be possible to install printer drivers over the network if the client computers and the print server use different versions of the operating system (32-bit or 64-bit). </div>
+											<div class="list">Consult your network administrator if you want to set up a print server in a domain environment. </div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="step_number">1</div>
+						<div class="step_text">Log on to the computer with an administrator account.</div>
+						<div class="step_number">2</div>
+						<div class="step_text">Open the printer folder. <a href="06040010.html#06040010-010">Displaying the Printer Folder</a></div>
+						<div class="step_number">3</div>
+						<div class="step_text">Right-click the icon of the printer you are setting up and click [Printer properties] or [Properties].</div>
+						<div class="figure_level1"><img src="./images/book_images/b_S070_c.gif" alt="" /></div>
+						<div class="step_number">4</div>
+						<div class="step_text">Click the [Sharing] tab, select [Share this printer], and enter the share name.</div>
+						<div class="figure_level1"><img src="./images/book_images/b_S071_c.gif" alt="" /></div>
+						<div class="text_level1"><img src="./images/book_images/b_style_note2.gif" alt="" /></div>
+						<div class="text_level1"><span class="bold+color_green">If [Change sharing options] is displayed</span></div>
+						<div class="text_level1">Click [Change sharing options]. </div>
+						<div class="text_level1"><img src="./images/book_images/b_S072_c.gif" alt="" /></div>
+						<div class="step_number">5</div>
+						<div class="step_text">Install additional drivers as necessary.<img src="./images/global_images/1T0002134966/g_ne_toggle_open.gif" alt="" /></div>
+						<div class="list">During the procedure explained in <a href="03020000.html#03020000">Installing Drivers via the Print Server (Client Settings)</a>, this step is necessary if you want to use the print server to install printer drivers on computers that use different processor versions (32-bit or 64-bit) of the operating system.</div>
+						<div class="invisible">
+							<div class="table_number">
+								<table class="table_number">
+									<tbody class="table_number">
+										<tr class="table_number">
+											<td colspan="1" rowspan="1" class="col_0 row_0 table_number table_number_col_0 table_number_row_0">
+												<div class="text"><span class="bold">1</span></div>
+											</td>
+											<td colspan="1" rowspan="1" class="col_1 row_0 table_number table_number_col_1 table_number_row_0">
+												<div class="text"><span class="bold">Click [Additional Drivers].</span></div>
+											</td>
+										</tr>
+										<tr class="table_number">
+											<td colspan="1" rowspan="1" class="col_0 row_1 table_number table_number_col_0 table_number_row_1">
+												<div class="text"><span class="bold">2</span></div>
+											</td>
+											<td colspan="1" rowspan="1" class="col_1 row_1 table_number table_number_col_1 table_number_row_1">
+												<div class="text"><span class="bold">Select the additional drivers, and click [OK].</span></div>
+												<div class="figure"><img src="./images/book_images/b_S073_c.gif" alt="" /></div>
+												<div class="list">Select additional drivers as follows, according to the operating system of the print server.</div>
+												<div class="table_matrix">
+													<table class="table_matrix">
+														<thead class="table_matrix">
+															<tr class="table_matrix">
+																<td colspan="1" rowspan="1" class="col_0 row_0 table_matrix table_matrix_col_0 table_matrix_row_0">
+																	<div class="text">Print Server</div>
+																</td>
+																<td colspan="1" rowspan="1" class="col_1 row_0 table_matrix table_matrix_col_1 table_matrix_row_0">
+																	<div class="text">Additional Drivers</div>
+																</td>
+															</tr>
+														</thead>
+														<tbody class="table_matrix">
+															<tr class="table_matrix">
+																<td colspan="1" rowspan="1" class="col_0 row_1 table_matrix table_matrix_col_0 table_matrix_row_1">
+																	<div class="text">32-bit OS</div>
+																</td>
+																<td colspan="1" rowspan="1" class="col_1 row_1 table_matrix table_matrix_col_1 table_matrix_row_1">
+																	<div class="text">Select [x64]. </div>
+																</td>
+															</tr>
+															<tr class="table_matrix">
+																<td colspan="1" rowspan="1" class="col_0 row_2 table_matrix table_matrix_col_0 table_matrix_row_2">
+																	<div class="text">64-bit OS</div>
+																</td>
+																<td colspan="1" rowspan="1" class="col_1 row_2 table_matrix table_matrix_col_1 table_matrix_row_2">
+																	<div class="list"><span class="bold">Windows XP/Server 2003<br /></span>Select [Windows 2000, Windows XP and Windows Server 2003] under [Version].</div>
+																	<div class="list"><span class="bold">Windows Vista/7/8/Server 2008/<br />Server 2012<br /></span>Select [x86] under [Processor].</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="text"><img src="./images/book_images/b_style_note2.gif" alt="" /><br />If you do not know whether to specify the 32-bit version or the 64-bit version for Windows Vista/7/8/Server 2008/Server 2012, see <a href="06040010.html#06040010-040">Checking the Bit Architecture</a>. </div>
+											</td>
+										</tr>
+										<tr class="table_number">
+											<td colspan="1" rowspan="1" class="col_0 row_2 table_number table_number_col_0 table_number_row_2">
+												<div class="text"><span class="bold">3</span></div>
+											</td>
+											<td colspan="1" rowspan="1" class="col_1 row_2 table_number table_number_col_1 table_number_row_2">
+												<div class="text"><span class="bold">Insert the User Software CD-ROM/DVD-ROM into the drive on the computer.</span></div>
+												<div class="list">If you want to use printer drivers downloaded from the Canon website, download the additional drivers (printer drivers for processor versions that are different from that of the print server).</div>
+												<div class="text"><img src="./images/book_images/b_style_note2.gif" alt="" /><br />When the [CD-ROM/DVD-ROM Setup] screen is displayed, click [Exit].</div>
+											</td>
+										</tr>
+										<tr class="table_number">
+											<td colspan="1" rowspan="1" class="col_0 row_3 table_number table_number_col_0 table_number_row_3">
+												<div class="text"><span class="bold">4</span></div>
+											</td>
+											<td colspan="1" rowspan="1" class="col_1 row_3 table_number table_number_col_1 table_number_row_3">
+												<div class="text"><span class="bold">Click [Browse].</span></div>
+												<div class="figure"><img src="./images/book_images/b_S074_c.gif" alt="" /></div>
+											</td>
+										</tr>
+										<tr class="table_number">
+											<td colspan="1" rowspan="1" class="col_0 row_4 table_number table_number_col_0 table_number_row_4">
+												<div class="text"><span class="bold">5</span></div>
+											</td>
+											<td colspan="1" rowspan="1" class="col_1 row_4 table_number table_number_col_1 table_number_row_4">
+												<div class="text"><span class="bold">Specify the folder where the additional drivers are stored, select the Inf file, and click [Open].</span></div>
+												<div class="figure"><img src="./images/book_images/b_S075_c.gif" alt="" /></div>
+												<div class="list">Specify the folder where the additional drivers are stored as follows.</div>
+												<div class="table_no_border">
+													<table class="table_no_border">
+														<tbody class="table_no_border">
+															<tr class="table_no_border">
+																<td colspan="1" rowspan="1" class="col_0 row_0 table_no_border table_no_border_col_0 table_no_border_row_0">
+																	<div class="lead"><span class="no_break">  </span></div>
+																</td>
+																<td colspan="1" rowspan="1" class="col_1 row_0 table_no_border table_no_border_col_1 table_no_border_row_0">
+																	<div class="text_level0"><span class="bold+color_red">When the print server uses a 32-bit OS<br /></span>Specify [UFRII] <img src="./images/book_images/b_key_arrow_right.gif" alt="" /> [us_eng] <img src="./images/book_images/b_key_arrow_right.gif" alt="" /> [x64] <img src="./images/book_images/b_key_arrow_right.gif" alt="" /> [Driver] folders of the CD-ROM/DVD-ROM or downloaded file. </div>
+																</td>
+															</tr>
+															<tr class="table_no_border">
+																<td colspan="1" rowspan="1" class="col_0 row_1 table_no_border table_no_border_col_0 table_no_border_row_1">
+																	<div class="lead"><span class="no_break">  </span></div>
+																</td>
+																<td colspan="1" rowspan="1" class="col_1 row_1 table_no_border table_no_border_col_1 table_no_border_row_1">
+																	<div class="text_level0"><span class="bold+color_red">When the print server uses a 64-bit OS<br /></span>Specify [UFRII] <img src="./images/book_images/b_key_arrow_right.gif" alt="" /> [us_eng] <img src="./images/book_images/b_key_arrow_right.gif" alt="" /> [32BIT] <img src="./images/book_images/b_key_arrow_right.gif" alt="" /> [Driver] folders of the CD-ROM/DVD-ROM or downloaded file. </div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</td>
+										</tr>
+										<tr class="table_number">
+											<td colspan="1" rowspan="1" class="col_0 row_5 table_number table_number_col_0 table_number_row_5">
+												<div class="text"><span class="bold">6</span></div>
+											</td>
+											<td colspan="1" rowspan="1" class="col_1 row_5 table_number table_number_col_1 table_number_row_5">
+												<div class="text"><span class="bold">Click [OK].</span></div>
+												<div class="table_no_border">
+													<table class="table_no_border">
+														<tbody class="table_no_border">
+															<tr class="table_no_border">
+																<td colspan="1" rowspan="1" class="col_0 row_0 table_no_border table_no_border_col_0 table_no_border_row_0">
+																	<div class="figure"><img src="./images/book_images/b_mark_result_level0.gif" alt="" /></div>
+																</td>
+																<td colspan="1" rowspan="1" class="col_1 row_0 table_no_border table_no_border_col_1 table_no_border_row_0">
+																	<div class="lead">Installation of the additional driver starts. Wait until you are returned to the [Sharing] tab. </div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="step_number">6</div>
+						<div class="step_text">Click [OK].</div>
+						<div class="lead"> </div>
+						<div class="h3"><a id="04010000-010"></a>Setting Up a Print Server during Printer Driver Installation</div>
+						<div class="lead">If you are using a printer connected by wireless LAN, you can set up a print server at the time when you install the printer driver. To set the computer onto which you are installing the print driver as a print server, select [Use as Shared Printer] in the [Printer Information] screen, which is displayed when you install the printer driver. </div>
+						<div class="table_important_level0">
+							<table class="table_important_level0">
+								<thead class="table_important_level0">
+									<tr class="table_important_level0">
+										<td colspan="1" rowspan="1" class="col_0 row_0 table_important_level0 table_important_level0_col_0 table_important_level0_row_0">
+											<div class="text"><img src="./images/book_images/b_style_important1.gif" alt="" /></div>
+										</td>
+									</tr>
+								</thead>
+								<tbody class="table_important_level0">
+									<tr class="table_important_level0">
+										<td colspan="1" rowspan="1" class="col_0 row_1 table_important_level0 table_important_level0_col_0 table_important_level0_row_1">
+											<div class="text_level0">If you are using a printer connected by USB, you cannot set up a print server at the time when you install the printer driver. Set up the print server after installing the printer driver, by using the procedure described above.</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="table_note_level0">
+							<table class="table_note_level0">
+								<thead class="table_note_level0">
+									<tr class="table_note_level0">
+										<td colspan="1" rowspan="1" class="col_0 row_0 table_note_level0 table_note_level0_col_0 table_note_level0_row_0">
+											<div class="text"><img src="./images/book_images/b_style_note1.gif" alt="" /></div>
+										</td>
+									</tr>
+								</thead>
+								<tbody class="table_note_level0">
+									<tr class="table_note_level0">
+										<td colspan="1" rowspan="1" class="col_0 row_1 table_note_level0 table_note_level0_col_0 table_note_level0_row_1">
+											<div class="text_level0">For the complete installation procedure, see <a href="02000000.html#02000000">Installing</a>.</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="h5">[Printer Information] screen</div>
+						<div class="figure"><img src="./images/book_images/b_S076_c.gif" alt="" /></div>
+						<div class="table_no_border">
+							<table class="table_no_border">
+								<tbody class="table_no_border">
+									<tr class="table_no_border">
+										<td colspan="1" rowspan="1" class="col_0 row_0 table_no_border table_no_border_col_0 table_no_border_row_0">
+											<div class="text"><span class="bold">[Use as Shared Printer]</span><br />When this is selected, the computer onto which you are installing the printer driver is designated as a print server. </div>
+											<div class="text_sub"><span class="bold">[Shared Name]</span><br />Enter the name of the shared printer. </div>
+											<div class="text_sub"><span class="bold">[Drivers to Add]</span><br />Click to install additional drivers. During the procedure explained in <a href="03020000.html#03020000">Installing Drivers via the Print Server (Client Settings)</a>, additional drivers are necessary if you want to use the print server to install printer drivers on computers that use different processor versions (32-bit or 64-bit) of the operating system.</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="related">LINKS</div>
+						<div class="list_link_level0"><a href="03020000.html#03020000">Installing Drivers via the Print Server (Client Settings)</a></div>
+					</div>
+					<!--CONTENT_END-->
+				</div>
+				<div class="footer"><ul id="id_footer_include"></ul></div>
+				<div id="back_to_the_top"><a href="#id_header"><img src="../frame_images/f_back_3.png" title="" /></a></div>
+			</div>
+		</div>
+	</body>
+</html>

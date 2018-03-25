@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<discovery xmlns="urn:slpdiscovery">
+
+	<refreshRate>60</refreshRate>
+	<timeout>4</timeout>
+	<destinationAddressIPv6>ff02::1</destinationAddressIPv6>
+
+	<methodList onlyMatching="true">
+
+		<!-- SLP method to find "service:printer" devices -->
+		<method name="Test" serviceType="printer.canon">
+			<AttributeList>
+				<devNameOID>x-can-PdInfoMachineName</devNameOID>
+				<devTypeOID>x-can-PdInfoProductName</devTypeOID>
+				<sysDescOID>sysDescr</sysDescOID>
+			</AttributeList>
+			<deviceList>
+				<device name="Canon LBP6030/6040/6018L">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP6030w/6018w</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+			</deviceList>
+		</method>
+	</methodList>
+</discovery>

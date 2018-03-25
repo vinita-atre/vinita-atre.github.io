@@ -1,0 +1,255 @@
+* {
+	font-family: "Lucida Grande", "Verdana", "Arial", "Helvetica", Sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	text-decoration: none;
+	letter-spacing: 0;
+}
+html {
+	border: 0;
+	height: 100%;
+}
+body {
+	margin: 0px;
+	height: 100%;
+	cursor: default;
+	overflow: hidden;
+	background: #4d4d4d;
+}
+#id_header {
+	height: 120px;
+}
+#id_res_glossary {
+	background: #929497;
+	color: #fff;
+	padding: 15px 20px 10px 20px;
+	border-bottom: solid 1px #bcbdbe;
+}
+#id_initials {
+	background: #4d4d4d;
+	height: 65px;
+	padding: 3px 3px 2px 3px;
+}
+#id_initials button.normal {
+	border: solid 1px #444;
+	font-size: 80%;
+	margin: 2px 0px 4px 1px;
+	padding: 2px 0px;
+	cursor: pointer;
+	height: 25px;
+	background: #888;
+	color: #fff;
+	border-radius: 3.5px;
+}
+#id_initials button.click {
+	border: solid 1px #444;
+	font-size: 80%;
+	margin: 2px 0px 4px 1px;
+	padding: 2px 0px;
+	cursor: default;
+	height: 25px;
+	background: #ff6e1a;
+	color: #fff;
+	border-radius: 3.5px;
+}
+#id_words {
+	position: absolute;
+	top: 120px;
+	width: 295px;
+	border: solid 5px #eee;
+	overflow: auto;
+	font-size: 80%;
+	background: #fff;
+}
+#id_words div.normal {
+	border-bottom: solid 1px #eee;
+	padding: 5px;
+	color: #666;
+	cursor: pointer;
+}
+#id_words div.normal a {
+	color: #666;
+	cursor: pointer;
+}
+#id_words div.click {
+	border-bottom: solid 1px #fff;
+	padding: 5px;
+	background: #999;
+	color: #fdce8b;
+}
+#id_words div.click a {
+	color: #fff;
+	cursor: default;
+}
+#id_desc {
+	position: absolute;
+	top: 120px;
+	left: 300px;
+	border: solid 5px #eee;
+	overflow: auto;
+	background: #fff;
+}
+#id_desc div.title {
+	background: #fff;
+	padding: 15px 15px 10px 15px;
+	font-size: 100%;
+	font-weight: bold;
+	color: #ff6e1a;
+}
+#id_desc div.desc {
+	font-size: 80%;
+	padding: 10px 15px;
+	color: #333;
+}
+#id_desc div.desc ul {
+	font-size: 80%;
+	margin-left: 20px;
+	color: #333;
+}
+#id_desc div.desc a {
+	cursor: pointer;
+	color: #0000ff;
+}
+#id_desc div.desc a:hover {
+	cursor: pointer;
+	color: #0000ff;
+	text-decoration: underline;
+}
+div.search_glossary {
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #808080;
+	font-size: 80%;
+}
+div.search_glossary a.search_glossary {
+	color: #96bc69;
+}
+div.search_glossary a.search_glossary:hover {
+	color: #008000;
+	text-decoration: underline;
+}
+#id_search {
+	display: none;
+}
+div#id_search_results {
+	cursor: default;
+	border: solid 1px #ccc;
+	background: #fff;
+	padding: 2px 0px;
+	padding-bottom: 15px;
+	font-size: 100%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+div#id_search_results div.search_chapter_title {
+	background: #eee;
+	color: #333;
+	padding: 3px 5px;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 90%;
+}
+div#id_search_results div.search_topic_title {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #d02b14;
+	font-size: 80%;
+}
+div#id_search_results div.search_topic_title a {
+	color: #d02b14;
+}
+div#id_search_results div.search_topic_title img {
+	width: 7px;
+	height: 11px;
+}
+div#id_search_results div.search_topic_summary {
+	font-size: 80%;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 5px;
+}
+div#id_search_results div.search_topic_summary a {
+	color: #00f;
+}
+div#id_search_results div.search_topic_summary a:hover {
+	color: #00f;
+	text-decoration: underline;
+}
+div#id_search_status {
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #808080;
+	height: 20px;
+	font-size: 80%;
+}
+div#id_search_status a {
+	margin: 0 5px;
+}
+div#id_search_status a.page {
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}
+div#id_search_status a.page_current {
+	background: transparent;
+	border: 0;
+	color: #ff4800;
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: default;
+}
+div#id_search_status a img {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+span.hit {
+	background: #c4bd97;
+}
+span.hit_0 {
+	background: #c4bd97;
+}
+span.hit_1 {
+	background: #8db3e2;
+}
+span.hit_2 {
+	background: #b8cce4;
+}
+span.hit_3 {
+	background: #e5b9b7;
+}
+span.hit_4 {
+	background: #d7e3bc;
+}
+span.hit_5 {
+	background: #ccc1d9;
+}
+span.hit_6 {
+	background: #b7dde8;
+}
+span.hit_7 {
+	background: #fbd5b5;
+}
+@media print {
+	#id_header, #id_footer, #id_words, #id_search, .search_glossary, #id_search_results, #id_search_status {
+		display: none!important;
+	}
+	#id_desc {
+		position: static;
+		top: 0px;
+		left: 0px;
+		width: 100%!important;
+		height: 100%;
+		border: 0;
+		overflow: visible;
+		background: #fff;
+	}
+}
