@@ -381,12 +381,50 @@ a:hover, a:focus, a:active {
     
 
 }
-.slide {
+.slide1 {
 	animation-name: slide;
 	-webkit-animation-name: slide;
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
-	visibility: visible;
+	animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.slide2 {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+  animation-delay: 100ms;
+  -webkit-animation-delay: 100ms;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.slide3 {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+  animation-delay: 200ms;
+  -webkit-animation-delay: 200ms;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.slide4 {
+	animation-name: slide;
+	-webkit-animation-name: slide;
+	animation-duration: 1000ms;
+	-webkit-animation-duration: 1000ms;
+  animation-delay: 300ms;
+  -webkit-animation-delay: 300ms;
+  opacity: 0;  
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 @keyframes slide {
 	0% {
