@@ -1,3 +1,7 @@
+/*to make images responsive on mobile, using full width*/
+.fullwidthimage {
+  width: 100%
+}
 mark {
     background-color: black;
     color: yellow;
@@ -184,4 +188,15 @@ color: yellow;
 .portfolio-item:hover + .caption {
     background: #ccc
     color:blue;
+}
+p{
+  text-align: justify
+}
+.project-header{
+    display: block;
+    margin: auto; 
+    text-align: center;
+} 
+.project-subtitle{
+  margin: auto; text-align: center
 }
