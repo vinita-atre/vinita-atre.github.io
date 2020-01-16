@@ -1,6 +1,26 @@
 /*to make images responsive on mobile, using full width*/
 .fullwidthimage {
   width: 100%
+
+}
+.centeredimage {
+ display: block;
+  margin: auto;
+  width: 100%;
+
+}
+.centeredcontainer{
+  margin: auto;
+  width: 100%;
+}
+.centeredcontentcontainer{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+im
+img{
+  border-radius: 6%
 }
 mark {
     background-color: black;
